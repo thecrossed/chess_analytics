@@ -16,33 +16,59 @@ This [diagram](https://docs.google.com/drawings/d/1BzmY8LQ4Q64lc_jIVaKUPrPVy9Eqa
 # Schema
 
 ### Dimension
+
 Player id - str
+
 Player username - str
+
 Player chess.com - account
 
 ### Fact
+
 #### Rating
+
 Player id - str foreign key
+
 Player score - int 
+
 Score type - str
+
 Score update time - timestamp
 
+
 #### Games
+
 Player id - str foreign key
+
 Game id - str foreign key
+
 Start time - timestamp
+
 End time - timestamp
+
 Game type - str
+
 Is white - boolean
+
 Result - str
+
 Number of moves - int
+
 Start rating white - int
+
 End eating white - int
+
 Start rating black - int
+
 End rating black - int
 
 #### Moves
+
 Game id - str foreign key
+
 Move number - int 
+
 White move - str
+
 Black move - str
+
