@@ -21,7 +21,7 @@ Player id - str
 
 Player username - str
 
-Player chess.com - account
+Player chess.com - str
 
 ### Fact
 
